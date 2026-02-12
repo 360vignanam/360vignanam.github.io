@@ -124,18 +124,11 @@ footer{
 
 </div>
 
-<footer>
-© 2026 360 Vignanam | Page: <span id="viewCount"></span>
+<footer style="display: flex; justify-content: center; align-items: center; gap: 8px; font-size: 12px; opacity: 0.7; padding: 20px 0; ">
+  <span>© 2026 360 Vignanam |</span>
+  <img   src="https://visitor-badge.laobi.icu/badge?page_id=360vignanam.github.io" alt="visitor count"  style="height:18px;" />
 </footer>
-
-<script>
-if(localStorage.getItem("page_view")){
-    localStorage.setItem("page_view", Number(localStorage.getItem("page_view")) + 1);
-}else{
-    localStorage.setItem("page_view", 1);
-}
-document.getElementById("viewCount").innerText = localStorage.getItem("page_view");
-</script>
 
 </body>
 </html>
+
