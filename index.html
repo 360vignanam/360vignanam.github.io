@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="360 Vignanam is a Telugu YouTube channel sharing movie facts, quizzes, interesting knowledge, and mind-blowing information in short videos. Subscribe now to expand your knowledge 360°!">
+<meta name="keywords" content="360 Vignanam, Telugu knowledge channel, Telugu movie facts, Telugu quiz videos, interesting facts Telugu, Telugu YouTube channel, GK Telugu, entertainment Telugu">
+<meta name="author" content="360 Vignanam">
+<meta name="robots" content="index, follow">
+
 <title>360 Vignanam | YouTube Channel</title>
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16X16.png">
@@ -29,12 +34,24 @@
 <meta name="twitter:description" content="Telugu movies, quizzes & knowledge content.">
 <meta name="twitter:image" content="https://360vignanam.github.io/img/favicon/favicon-512X512.png">
 
+<link rel="canonical" href="https://360vignanam.github.io/">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="main.360.min.css">
 </head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "360 Vignanam",
+  "url": "https://360vignanam.github.io/",
+  "sameAs": [
+    "https://www.youtube.com/@360vignanam"
+  ]
+}
+</script>
 
 <body>
 
@@ -48,7 +65,15 @@
         <img src="img/t_logo.png" style="width:65%;">
         <h1>Quiz • Suggestions • Updates</h1>
         <p>Welcome to 360 Vignanam – Your place for quizzes, smart suggestions, trending updates and educational entertainment.</p>
-        <a href="https://youtube.com/@360Vignanam" target="_blank" class="btn">Subscribe Our Channel</a>
+		
+
+  <p>
+    Subscribe to <strong>360 Vignanam</strong> on YouTube and join our growing community 
+    of curious minds who love entertainment mixed with education.
+    Stay connected with <strong>360 Vignanam</strong> and upgrade your knowledge today!
+  </p>
+
+        <a href="https://www.youtube.com/@360vignanam?sub_confirmation=1" target="_blank" class="btn">Subscribe Our Channel</a>
     </div>
 </section>
 
@@ -150,18 +175,10 @@
     </div>
 
     <div class="footer-bottom">
-        © 360 Vignanam |  Visits: <span id="viewCount"></span>
+        <span>© 360 Vignanam |</span>  <span id="viewCount"><img src="https://api.visitorbadge.io/api/visitors?path=360vignanam.github.io&label=Visitors&countColor=0f3d3e" />
     </div>
 
 </footer>
 
-<script>
-if(localStorage.getItem("page_view")){
-    localStorage.setItem("page_view", Number(localStorage.getItem("page_view")) + 1);
-}else{
-    localStorage.setItem("page_view", 1);
-}
-document.getElementById("viewCount").innerText = localStorage.getItem("page_view");
-</script>
 </body>
 </html>
